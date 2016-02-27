@@ -1,0 +1,14 @@
+canvas {
+    height: 400px;
+    width: 1000px;
+}
+
+svg{
+    padding:10px;
+}
+
+line{
+    stroke-width:1;
+    stroke:rgb(0,0,0);
+    stroke-lineCap:square;
+}

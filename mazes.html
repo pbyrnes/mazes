@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <script src="mazes.js">
+  </script>
+  <link rel="stylesheet" type="text/css" href="mazes.css">
+  <title>Mazes</title>
+</head>
+<body onload="init()">
+
+	<input id="nRow" type="number" value="30"/> Number of rows <br>
+	<input id="nCol" type="number" value="30"/> Number of columns <br>
+	<input id="cellSz" type="number" value="20"/> Size of cells <br>
+
+    <input id="colorCheckBox" type="checkbox" />  Show colors<br>  
+	<input id="AldousBroder" type="radio" name="algChoice" checked /> AldousBroder<span></span>
+	<input id="sidewinder" type="radio" name="algChoice" /> Sidewinder <span></span>
+	<input id="binaryTree" type="radio" name="algChoice" /> Binary Tree <br>
+    <button id="genMazeButton" type="button">Generate Maze!</button><br>
+    
+ <!-- <canvas id="myCanvas" height="500px" width="1000px"> -->
+     <svg xmlns="http://www.w3.org/2000/svg" height="500px" width="500px" shape-rendering="crispEdges">
+     </svg>
+</body>
+</html>
